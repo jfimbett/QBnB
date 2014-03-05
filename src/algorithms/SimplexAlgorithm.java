@@ -1044,19 +1044,19 @@ public class SimplexAlgorithm {
 	 
 	 public static void main(String[] args) {
 	// TODO Auto-generated method stub
-//	  double[][] A={{1,1,1,0},{1,2,0,-1}};
-//	  double[] c={-3,-4,0,0};
-//	  String[] names={"x1","x2","S1","S2"};
-//	  double[] b={100,20};
-//	  double[] U={20,10,Double.MAX_VALUE, Double.MAX_VALUE};
-//	  double[] L={5,3,0,0};
-//	  SimplexAlgorithm sa = new SimplexAlgorithm(A,b,c,names, U, L, true);
-//	  sa.printProblem();
+	  double[][] A={{1,1,1,0},{1,2,0,-1}};
+	  double[] c={-3,-4,0,0};
+	  String[] names={"x1","x2","S1","S2"};
+	  double[] b={100,20};
+	  double[] U={20,10,Double.MAX_VALUE, Double.MAX_VALUE};
+	  double[] L={5,3,0,0};
+	  SimplexAlgorithm sa = new SimplexAlgorithm(A,b,c,names, U, L, true);
+	  sa.printProblem();
 		 
-		 SimplexAlgorithm sa= new SimplexAlgorithm();
+/*		 SimplexAlgorithm sa= new SimplexAlgorithm();
 		 double[][] A={{1,2},{1,1}};
 		 double[] c={2,1};
-		 System.out.println(sa.isColumn(c, A));
+		 System.out.println(sa.isColumn(c, A));*/
 	  
 	
 }

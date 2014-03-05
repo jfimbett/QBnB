@@ -18,11 +18,14 @@ public class QBnBVariable {
 	private int type;
 	
 	private double value;
+	
+	private boolean slack;
 
 	/**
 	 * 
 	 */
 	public QBnBVariable(double lb, double ub, int type, String name) {
+		this.setSlack(false);
 		this.name=name;
 		this.lb=lb;
 		this.ub=ub;
@@ -30,6 +33,7 @@ public class QBnBVariable {
 	}
 	
 	public QBnBVariable(double lb, double ub, int type) {
+		this.setSlack(false);
 		this.name=name;
 		this.lb=lb;
 		this.ub=ub;
@@ -74,6 +78,14 @@ public class QBnBVariable {
 
 	public void setValue(double value) {
 		this.value = value;
+	}
+
+	public boolean isSlack() {
+		return slack;
+	}
+
+	public void setSlack(boolean slack) {
+		this.slack = slack;
 	}
 	
 	

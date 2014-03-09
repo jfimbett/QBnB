@@ -1,11 +1,11 @@
 QBnB
 ====
 
-A pure java MIP Solver perfect for hard NP Problems. 
+A pure java MIP Solver perfect for medium size NP Problems. 
 
 State-of-the-art solvers like Gurobi, CPLEX and XPress are fast, robust, but expensive. The idea behind this project is to develop a complete set of optimization libraries in Java for making embeded Decision Support Systems (DSS) for commercial and academic use. <br>
 
-The idea is to develop the following capabilities in the project:<br>
+The final goal is to develop the following capabilities in the project:<br>
 
 Exact Algorithms<br>
 1) A fast LP Solver with the Simplex Algorithm implemented in standard and tableau format. <br>
@@ -30,7 +30,7 @@ Contact: Juan Imbett, jfimbett@gmail.com
 
 Current Work:
 
-The following modules are close to be done:
+The following modules are in their beta test:
 
-1) Simplex <br>
-2) Branch & Bound <br>
+1) LP and BLP problems <br>
+2) MIP using Deep Search First and Branch and Bound <br>
